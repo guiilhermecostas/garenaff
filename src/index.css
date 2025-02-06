@@ -14,6 +14,15 @@
   background-color: rgb(162, 162, 162);
 }
 
+.logoprovacyys{
+  width: 50px;
+}
+
+.logoprovacyyss{
+  width: 100px;
+  padding: 5px 0px;
+}
+
 .garenffbarra{
   display: flex;
   align-items: center;
@@ -62,7 +71,7 @@
 }
 
 .valorderecarga{
-  background-color: #d81a0d10;
+  background-color: #d87d0d10;
   width: 120px;
   margin: 10px;
   display: flex;
@@ -73,7 +82,7 @@
   color: black;
   border-radius: 5px;
   height: 50px;
-  border: 2px solid #d81a0d;
+  border: 2px solid #d8720d;
 }
 
 .piclogopag{
@@ -95,11 +104,11 @@
   border-radius: 3px;
   display: flex;
   align-items: center;
-  background-color: #d81a0d;
+  background-color: #d8790d;
 }
 
 .valorderecargas{
-  background-color: #e7362910;
+  background-color: #e7882910;
   width: 200px;
   margin: 10px;
   padding: 0px 20px;
@@ -112,7 +121,7 @@
   color: black;
   border-radius: 5px;
   height: 80px;
-  border: 2px solid #d81a0d;
+  border: 2px solid #d88a0d;
 }
 
 .bonustxt{
@@ -202,8 +211,8 @@
   justify-content: center;
   color: white;
   text-align: center;
-  border: 1px solid #d81a0d;
-  background-color: #d81a0d;
+  border: 1px solid #d8620d;
+  background-color: #d8620d;
   height: 44px;
 }
 
@@ -224,7 +233,7 @@
 
 #numberonpag{
   width: 24px;
-  background-color: #d81a0d;
+  background-color: #d8620d;
   color: white;
   display: flex;
   justify-content: center;
@@ -411,11 +420,35 @@ input[type="checkbox"]:checked::after {
   text-align: left;
 }
 
+.privacybanner{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.footersitess {
+  bottom: 0;
+  position: fixed;
+  background-color: white;
+  padding: 20px 15px 40px;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  border-top: 0.5px solid rgba(26, 26, 26, 0.038);
+  color: #28292f;
+  font-size: 13px;
+  width: 100%;
+  text-align: center;
+}
+
 .footersites {
   bottom: 0;
   position: fixed;
   background-color: white;
-  padding: 20px 15px 50px;
+  padding: 20px 15px 40px;
   justify-content: space-between;
   align-items: center;
   display: flex;
@@ -494,11 +527,100 @@ input[type="checkbox"]:checked::after {
 }
 
 .precoatual{
-  color: #d81a0d;
+  color: #d8790d;
+}
+
+.indfotxttotalmaisrais{
+  font-size: 18px;
+}
+
+.video-background {
+  align-items: center;
+  position: relative;
+  display: flex; 
+  justify-content: center;
+  width: 90%;
+  border-radius: 5px;
+}
+
+.logopircacy{
+  position: absolute;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  justify-content: center; 
+}
+
+.bannerprincipal{
+  background-image: url('./components/logo/banner.png');
+  background-size: cover;
+  width: 100%;
+  display: flex;
+}
+
+.imagemprimdeirao{
+  align-items: center;
+  margin-top: 10px;
+  justify-content: center;
+  width: 100%;
+  display: flex;
+}
+
+.bloinhadeco{
+  width: 5px;
+  border-radius: 50%;
+  height: 5px;
+  background-color: white;
+  margin: 0px 5px;
+}
+
+.bloinhadecos{
+  width: 5px;
+  border-radius: 50%;
+  height: 5px;
+  background-color: rgb(76, 76, 76);
+}
+
+.textdecoreacio{
+  display: flex;
+  justify-content: right;
+  text-align: right;
+  width: 100%;
+  align-items: center;
+  padding: 10px;
+}
+
+.textdecoreacios{
+  display: flex;
+  text-align: center;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.decoratxt{
+  color: white;
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.decoratxts{
+  color: rgb(71, 71, 71);
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.backgroudgradiente{
+  width: 100%;
+  display: flex;
+  justify-self: flex-end;
+  align-items: flex-end;
+  height: 140px;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.769), rgba(255, 0, 0, 0));
 }
 
 .bannerdadosdepag{
-  background-image: url('./logo/pagbanner.jpeg');
+  background-image: url('./logo/blur.jpg');
   background-size: cover;
   width: 100%;
   flex-direction: row;
@@ -510,13 +632,13 @@ input[type="checkbox"]:checked::after {
 }
 
 .botatocompraagora{
-  background: #d81a0d;
+  background: #d8790d;
   border-radius: 5px;
   align-items: center;
   text-align: center;
   color: white;
   justify-content: center;
-  border: 1px solid #d81a0d;
+  border: 1px solid #d8790d;
   display: flex;
   align-items: center;
   font-size: 15px;
@@ -524,7 +646,88 @@ input[type="checkbox"]:checked::after {
   padding: 15px 30px;
 }
 
-.inforeoci{
+.botaoemensagensm{
+  width: 100%;
+  height: 50px;
+  margin-bottom: 20px;
+}
+
+.text-green-500{
+  font-size: 12px;
+  margin-top: 5px;
+  font-weight: 600;
+}
+
+.pagrespobine{
+  padding: 20px 10px;
+  border-radius: 5px;
+  width: 80%;
+  text-align: center;
+  margin: 10px;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.pagcopiadecola{
+  display: flex;
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#copiarBtn{
+  padding: 12px 20px;
+  background: linear-gradient(45deg, rgba(255, 0, 0, 0.682), rgb(239, 171, 45));
+  color: white;
+  border-radius: 5px;
+  width: 100%;
+  font-weight: 600;
+  border: 1px solid white;
+}
+
+#textoParaCopiar{
+  width: 100%;
+  height: 10px;
+  border-radius: 5px;
+  margin: 10px 0px;
+  padding: 10px 0px;
+}
+
+.pagarpixqrcode{
+  position: fixed; /* ou absolute, dependendo do caso */
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Fundo semitransparente */
+  z-index: 9999;
+}
+
+.botatocompraagoras{
+  background: #d8790d;
+  border-radius: 5px;
+  margin-left: -15px;
+  align-items: center;
+  text-align: center;
+  color: white;
+  justify-content: center;
+  border: 1px solid #d8790d;
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 15px 30px;
 }
 
 .svgescudfobotacompag{
@@ -539,9 +742,29 @@ input[type="checkbox"]:checked::after {
   text-align: center;
 }
 
+.botaopagmentos{
+  display: flex;
+  width: 55%;
+  margin-left: -9px;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: center;
+}
+
 .footerbaixinfo{
   margin-top: 70px;
   padding: 50px 10px 10px;
+}
+
+.aguardandopagametn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carregandotam{
+  width: 30px;
+  margin-right: 10px;
 }
 
 .dadosexposto {
@@ -552,6 +775,7 @@ input[type="checkbox"]:checked::after {
   box-shadow: 0px -10px 10px rgba(211, 211, 211, 0.49);
   text-align: center;
   padding: 10px;
+  margin-bottom: 90px;
   background-color: white;
   border-radius: 10px;
   margin-top: -20px;
@@ -564,9 +788,8 @@ input[type="checkbox"]:checked::after {
 }
 
 .selecao{
-  background-color: rgba(240, 240, 240, 0.708);
-  padding: 0px 0px 20px 0px;
-  width: 100%;
+  margin-top: -20px;
+  margin-left: 20px;
 }
 
 .textoemails {
@@ -579,13 +802,25 @@ input[type="checkbox"]:checked::after {
 
 .cenralizaapptext{
   display: flex;
+  width: 80px;
+  position: relative;
+  height: 80px;
+  justify-content: flex-end;
+  align-items: flex-end;
   flex-direction: column;
+}
+
+.aovivodiv{
+  position: absolute;
+  width: 150%;
+  display: flex;
+  justify-content: right;
 }
 
 .logoetexto{
   padding: 10px;
   margin-left: 20px;
-  color: #d81a0d;
+  color: #d8790d;
   display: flex;
   font-size: 12px;
   font-weight: 700;
@@ -597,7 +832,96 @@ input[type="checkbox"]:checked::after {
   margin-top: -5px;
   margin-bottom: 5px;
   border-radius: 20px;
-  border: 3px solid #d81a0d;
+  border: 3px solid #d8790d;
+}
+
+.logoferrs{
+  width: 100px;
+  margin-top: -5px;
+  margin-bottom: 5px;
+  border-radius: 50%;
+  animation: pulseShadow 1s infinite alternate;
+}
+
+@keyframes pulseShadow {
+  0% {
+    box-shadow: 0 0 5px 2px rgba(255, 0, 0, 0.2);
+    border: 5px solid #d80d0d;
+  }
+  100% {
+    box-shadow: 0 0 20px 8px rgba(255, 0, 0, 0.5);
+    border: 5px solid #d80d0d;
+  }
+}
+
+.assineagoramesmo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  height: 200px;
+  margin-bottom: 10px;
+}
+
+.textobotao{
+  background: linear-gradient(45deg, rgba(222, 80, 80, 0.778), rgba(226, 147, 29, 0.773));
+  color: white;
+  padding: 16px 22px;
+  border-radius: 40px;
+  justify-content: space-between;
+  width: 90%;
+  margin-bottom: 10px;
+  font-size: 16px;
+  border: 1px solid white;
+  animation: pulse 1s infinite;
+  display: flex;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1); /* Tamanho normal */
+  }
+  50% {
+    transform: scale(1.1); /* Botão aumenta 20% */
+  }
+}
+
+.selecaodeplano{
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+}
+
+.textoprincipaltxtass{
+  font-size: 18px;
+  font-weight: 700;
+  color: #131313;
+  margin-bottom: 8px;
+}
+
+.descricaoprivacy{
+  font-size: 13px;
+  color: #131313;
+  margin-top: -10px;
+  padding: 10px 20px;
+}
+
+.descricaoprivacys{
+  font-size: 13px;
+  color: #131313;
+  margin-bottom: 20px;
+  margin-top: -10px;
+  padding: 10px 20px;
+}
+
+.aovivo{
+  color: white;
+  background-color: #d80d0d;
+  padding: 3px 10px;
+  font-size: 12px;
+  border-radius: 50px;
 }
 
 .primeiradivcenter{
@@ -608,7 +932,28 @@ input[type="checkbox"]:checked::after {
 
 .gridcentra{
   display: flex;
-  justify-content: space-between;
+}
+
+.inforuseresname{
+  display: flex;
+  text-align: left;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+}
+
+.txtname{
+  color: #131313;
+  font-weight: 600;
+  margin-right: 5px;
+}
+
+.infoperfil{
+  display: flex;
+}
+
+.usernameuser{
+  color: #8b8b8b;
 }
 
 .deocracaotxt {
